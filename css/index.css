@@ -1,0 +1,56 @@
+* {
+  margin: 5px;
+  padding: 10px;
+  box-sizing: content-box;
+  font-family: 'Times New Roman', Times, serif;
+}
+header.encabezado{
+  background: rgb(84, 192, 224);
+}
+
+main.contenido{
+  background: white;
+  display:flex;
+}
+section.contenido-principal {
+  background: #dddfe6;
+  flex: 1 1 30%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: left;
+}
+
+.imagen{
+  width: 200px;
+  height: 275px;
+  display: flex;
+  background-position: center;
+}
+
+aside.contenido-secundario {
+  background: white;
+  flex: 1 1 70%;
+  flex-flow: row wrap;
+  justify-content: left;
+}
+.perfil{
+  color: rgb(91, 189, 235);
+}
+.experiencia{
+  color: rgb(91, 189, 235);
+}
+.formacion{
+  color: rgb(91, 189, 235);
+}
+.sistema{
+  color: rgb(91, 189, 235);
+}
+.competencias{
+  color: rgb(91, 189, 235);
+}
+
+footer.pie{
+  background: rgb(84, 192, 224);
+
+}
+  
